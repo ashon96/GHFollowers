@@ -51,6 +51,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A2A45A92C02996100E1B42A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5A7F646A2BFE580D00B8FADA /* FavoritesListVC.swift */,
+				5A7F64702BFFA1EA00B8FADA /* FollowerListVC.swift */,
+				5A7F64682BFE57EB00B8FADA /* SearchVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5A2A45AA2C02999800E1B42A /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A7F64762BFFA78500B8FADA /* GFAlertVC.swift */,
+				5A7F646C2BFE6D6C00B8FADA /* GFButton.swift */,
+				5A7F646E2BFE787D00B8FADA /* GFTextField.swift */,
+				5A7F64722BFFA5AF00B8FADA /* GFTitleLabel.swift */,
+				5A7F64742BFFA6EF00B8FADA /* GFBodyLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		5A2A45AB2C0299B500E1B42A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5A7F64782BFFABF100B8FADA /* UIViewControllers+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		5A7F64482BFE51AF00B8FADA = {
 			isa = PBXGroup;
 			children = (
@@ -75,15 +105,9 @@
 				5A7F645D2BFE51B100B8FADA /* Assets.xcassets */,
 				5A7F645F2BFE51B100B8FADA /* LaunchScreen.storyboard */,
 				5A7F64622BFE51B100B8FADA /* Info.plist */,
-				5A7F64682BFE57EB00B8FADA /* SearchVC.swift */,
-				5A7F646A2BFE580D00B8FADA /* FavoritesListVC.swift */,
-				5A7F646C2BFE6D6C00B8FADA /* GFButton.swift */,
-				5A7F646E2BFE787D00B8FADA /* GFTextField.swift */,
-				5A7F64702BFFA1EA00B8FADA /* FollowerListVC.swift */,
-				5A7F64722BFFA5AF00B8FADA /* GFTitleLabel.swift */,
-				5A7F64742BFFA6EF00B8FADA /* GFBodyLabel.swift */,
-				5A7F64762BFFA78500B8FADA /* GFAlertVC.swift */,
-				5A7F64782BFFABF100B8FADA /* UIViewControllers+Ext.swift */,
+				5A2A45AB2C0299B500E1B42A /* Extensions */,
+				5A2A45AA2C02999800E1B42A /* Custom Views */,
+				5A2A45A92C02996100E1B42A /* Screens */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
