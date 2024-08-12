@@ -26,6 +26,7 @@
 		5A7F64792BFFABF100B8FADA /* UIViewControllers+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7F64782BFFABF100B8FADA /* UIViewControllers+Ext.swift */; };
 		5AB438DF2C62863E00EFABA8 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB438DE2C62863E00EFABA8 /* FollowerCell.swift */; };
 		5AB438E12C6286AC00EFABA8 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB438E02C6286AC00EFABA8 /* GFAvatarImageView.swift */; };
+		5ABF41662C6553C200F4DBE5 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF41652C6553C200F4DBE5 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		5A7F64782BFFABF100B8FADA /* UIViewControllers+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewControllers+Ext.swift"; sourceTree = "<group>"; };
 		5AB438DE2C62863E00EFABA8 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		5AB438E02C6286AC00EFABA8 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		5ABF41652C6553C200F4DBE5 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				5A3C47CC2C07545B00DD3292 /* GFError.swift */,
+				5ABF41652C6553C200F4DBE5 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				5A7F646B2BFE580D00B8FADA /* FavoritesListVC.swift in Sources */,
 				5A7F646D2BFE6D6C00B8FADA /* GFButton.swift in Sources */,
 				5A7F64692BFE57EB00B8FADA /* SearchVC.swift in Sources */,
+				5ABF41662C6553C200F4DBE5 /* UIHelper.swift in Sources */,
 				5AB438E12C6286AC00EFABA8 /* GFAvatarImageView.swift in Sources */,
 				5A7F64772BFFA78500B8FADA /* GFAlertVC.swift in Sources */,
 				5A7F64752BFFA6EF00B8FADA /* GFBodyLabel.swift in Sources */,
